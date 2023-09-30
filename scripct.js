@@ -1509,27 +1509,27 @@
 // console.log(uniqueGenres);
 //--------------------------------------
 
-const LOW_SCORE = 50;
-const HIGH_SCORE = 80;
-const students = [
-  { name: "Mango", score: 83 },
-  { name: "Poly", score: 59 },
-  { name: "Ajax", score: 37 },
-  { name: "Kiwi", score: 94 },
-  { name: "Houston", score: 64 },
-];
+// const LOW_SCORE = 50;
+// const HIGH_SCORE = 80;
+// const students = [
+//   { name: "Mango", score: 83 },
+//   { name: "Poly", score: 59 },
+//   { name: "Ajax", score: 37 },
+//   { name: "Kiwi", score: 94 },
+//   { name: "Houston", score: 64 },
+// ];
 
-const best = students.filter((student) => student.score >= HIGH_SCORE);
-console.log(best); // Tablica obiektów z imionami Mango i Kiwi
+// const best = students.filter((student) => student.score >= HIGH_SCORE);
+// console.log(best); // Tablica obiektów z imionami Mango i Kiwi
 
-const worst = students.filter((student) => student.score < LOW_SCORE);
-console.log(worst); // Tablica z jednym obiektem Ajax
+// const worst = students.filter((student) => student.score < LOW_SCORE);
+// console.log(worst); // Tablica z jednym obiektem Ajax
 
-// W funkcji callback wygodnie jest destrukturyzować właściwości obiektu
-const average = students.filter(
-  ({ score }) => score >= LOW_SCORE && score < HIGH_SCORE
-);
-console.log(average); // Tablica obiektów z imionami Poly i Houston
+// // W funkcji callback wygodnie jest destrukturyzować właściwości obiektu
+// const average = students.filter(
+//   ({ score }) => score >= LOW_SCORE && score < HIGH_SCORE
+// );
+// console.log(average); // Tablica obiektów z imionami Poly i Houston
 
 // const books = [
 //   {
